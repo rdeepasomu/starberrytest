@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.1.2" type="template">
+	<name>starberry</name>
+	<creationDate>2022-04-14</creationDate>
+	<author>Deepa</author>
+	<authorEmail>mail2deepar001@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright></copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>Starberry Test</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+    	<folder>css</folder>
+        <folder>js</folder>
+		<folder>html</folder>
+	</files>
+	<positions>
+		<position>filter</position>
+		<position>results</position>
+		<position>details</position>
+	</positions>
+    <config>
+        <fields name="params">
+          <fieldset name="general" label="General">
+             <field name="logo_text" type="text" label="Logo Text" description="Enter Your Logo Text" />
+             <field name="copyright_text" type="text" label="Copyright Text" description="Enter Your copyright Text" />
+          </fieldset>
+        </fields>
+    </config>
+</extension>

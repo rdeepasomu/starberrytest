@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+    <name>Results</name>
+    <author></author>
+    <authorEmail></authorEmail>
+    <authorUrl></authorUrl>
+    <copyright></copyright>
+    <version>1.0</version>
+    <description>Search Results</description>
+    <namespace>ResultsNamespace\Module\Results</namespace>
+    <files>
+        <filename module="mod_results">mod_results.php</filename>
+        <folder>tmpl</folder>
+        <folder>Helper</folder>
+        <filename>mod_results.xml</filename>
+    </files>
+
+</extension>
